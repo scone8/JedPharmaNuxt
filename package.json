@@ -1,0 +1,24 @@
+{
+  "name": "JedPharma",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12",
+    "nuxt-compress": "^4.1.0",
+    "vue-cookie-accept-decline": "^5.4.0"
+  },
+  "devDependencies": {
+    "nuxt-purgecss": "^1.0.0"
+  }
+}
