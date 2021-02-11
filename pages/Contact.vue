@@ -75,7 +75,6 @@
 </template>
 
 <script>
-  import axios from 'axios';
 
   const querystring = require("querystring");
     axios.defaults.headers.common = {

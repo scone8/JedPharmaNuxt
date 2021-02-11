@@ -49,6 +49,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     '@nuxtjs/sitemap',
+    '@nuxtjs/axios',
     ["nuxt-compress",
     {
       gzip: {
