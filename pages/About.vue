@@ -53,13 +53,13 @@
 
 <style scoped>
 .about-info {
-	margin-top:20px;
+	margin-top:80px;
 	width:80%;
 	max-width:1000px;
 }
 .our-team {
 	width:80%;
-	margin-top:50px;
+	margin-top:100px;
 }
 .column{
   -webkit-box-shadow: 0 8px 2px -6px black;

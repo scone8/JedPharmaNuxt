@@ -15,14 +15,14 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/logo.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/logo.png' },
       { rel: "stylesheet", type: "text/css", href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" },
       { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.7.0/css/all.css'}
     ],
     script: [
       { src: "https://code.jquery.com/jquery-3.3.1.slim.min.js" },
-      { src: "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" },
-      { src: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" }
+      { src: "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" },
+      { src: "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" }
     ]
   },
 
@@ -48,8 +48,11 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    '@nuxtjs/sitemap',
-    '@nuxtjs/axios',
+    ['@nuxtjs/axios', {
+      common: {
+        'Content-Type': 'application/json, text/plain, */*'
+      },
+    }],
     ["nuxt-compress",
     {
       gzip: {
@@ -65,6 +68,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    analyze: true
+    //analyze: true
   }
 }

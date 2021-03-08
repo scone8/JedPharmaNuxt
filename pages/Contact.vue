@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-us" :style="{'background-image': 'url(' + require('~/assets/Contact/contact14.jpg') + ')'}">
+  <div class="contact-us" :style="{'background-image': 'url(' + require('~/assets/Contact/contact18.png') + ')'}">
     <h1 class="heading">Contact JED Pharma</h1>
     <div class="form-row main-part">
       <div class="col-md-8 mb-md-0 mb-5">
@@ -76,11 +76,6 @@
 
 <script>
 
-  const querystring = require("querystring");
-    axios.defaults.headers.common = {
-      "Content-Type": "application/json"
-  }
-
   export default {
 
     name: "Contact",
@@ -99,7 +94,7 @@
     methods: {
       onSubmit() {
         axios.post("https://formspree.io/mvorrrlo",
-          querystring.stringify(this.form)
+          this.form
         )
         this.form.Enquiry = '',
         this.form.Name = '',
@@ -143,7 +138,7 @@ label{
   margin-bottom: -150px;
   padding-top: 150px;
   text-align: center;
-  background-position: center;
+  background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
 

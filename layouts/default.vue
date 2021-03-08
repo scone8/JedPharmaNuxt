@@ -143,7 +143,7 @@ export default {
 
 <style>
 body {
-  background-color: white;
+  background-color: #f5f5f5;
   color:#343a40;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   height: 100%;
