@@ -28,7 +28,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 850px;
+	height: 875px;
 	padding-top:200px;
 	margin-bottom: -10px;
 }

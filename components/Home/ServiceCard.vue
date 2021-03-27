@@ -23,6 +23,7 @@
 <style scoped>
 .heading{
   font-size: 1.75em;
+  font-weight: lighter;
 }
 .heading-div {
   padding:5%;
@@ -32,7 +33,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: #f5f5f5;
   border-radius: 0px;
   border: 0px;
 }

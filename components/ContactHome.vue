@@ -1,6 +1,5 @@
 <template>
-  <div class="contact-us" :style="{'background-image': 'url(' + require('~/assets/Contact/contact18.png') + ')'}">
-    <!--<img class="contact-logo img-responsive" src=@/assets/Contact/contact-logo.png alt="Contact page JED Pharma logo"/>-->
+  <div class="contact-us" :style="{'background-image': 'url(' + require('~/assets/Contact/contact1.jpg') + ')'}">
     <h1 class="heading">Contact JED Pharma</h1>
     <div class="form-row main-part">
       <div class="col-md-8 mb-md-0 mb-5">
@@ -64,11 +63,13 @@
           <li><i class="fas fa-phone mt-4 fa-2x"></i>
             <p>+353 52 614 6007</p>
           </li>
-          <a href="https://ie.linkedin.com/company/jed-pharma" target="_blank" rel="noopener noreferrer">
-            <li class="linked"><i class="fab fa-linkedin fa-3x"></i>
-                <p>JED Pharma LinkedIn</p>
-            </li>
-          </a>
+          <li>
+            <a href="https://ie.linkedin.com/company/jed-pharma" target="_blank" rel="noopener noreferrer"
+              class="linked">
+                <i class="fab fa-linkedin fa-3x"></i>
+                  <p>JED Pharma LinkedIn</p>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -120,7 +121,7 @@ label{
   height: 200px;
 }
 .contact-us {
-  color: white;
+  color: #f5f5f5;
   padding-bottom: 200px;
   padding-top: 80px;
   padding-right:10px;

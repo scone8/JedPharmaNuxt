@@ -1,6 +1,6 @@
 <template>
     <div class="jumbotron about-banner jumbotron-fluid"
-        :style="{'background-image': 'url(' + require('~/assets/About/about-banner.png') + ')'}">
+        :style="{'background-image': 'url(' + require('~/assets/About/about-banner.jpg') + ')'}">
         <div class="heading">
             <h1 class="heading-text">About Us</h1>
             <h3 class=about-under>Expertise – Innovation – Trust</h3>
@@ -19,7 +19,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:30em;
+    height:35em;
 }
 .heading-text {
     text-align: center;

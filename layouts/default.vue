@@ -8,9 +8,10 @@
               <img src="@/assets/logo.png" alt="" class="logo img-responsive">
             </nuxt-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive" data-toggle="collapse" data-target=".navbar-collapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <nuxt-link class="nav-link" data-toggle="collapse" to="/" active-class="active" exact>Home

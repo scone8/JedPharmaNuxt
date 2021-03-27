@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-us" :style="{'background-image': 'url(' + require('~/assets/Contact/contact18.png') + ')'}">
+  <div class="contact-us" :style="{'background-image': 'url(' + require('~/assets/Contact/contact1.jpg') + ')'}">
     <h1 class="heading">Contact JED Pharma</h1>
     <div class="form-row main-part">
       <div class="col-md-8 mb-md-0 mb-5">
@@ -63,11 +63,12 @@
           <li><i class="fas fa-phone mt-4 fa-2x"></i>
             <p>+353 52 614 6007</p>
           </li>
-          <a href="https://ie.linkedin.com/company/jed-pharma" target="_blank" rel="noopener noreferrer">
-            <li class="linked"><i class="fab fa-linkedin fa-3x"></i>
-                <p>JED Pharma LinkedIn</p>
-            </li>
-          </a>
+          <li class=linked>
+            <a href="https://ie.linkedin.com/company/jed-pharma" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin fa-3x"></i>
+                  <p>JED Pharma LinkedIn</p>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -145,7 +146,7 @@ label{
 }
 .submitbtn {
   width:30%;
-  color: white;
+  color: #f5f5f5;
   min-width:80px;
   text-align: center;
   margin-top:25px;
@@ -169,7 +170,7 @@ label{
   padding-top:20px;
 }
 .linked {
-  padding-top: 25px
+  padding-top: 30px;
 }
 a { color: inherit; } 
 

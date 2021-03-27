@@ -90,7 +90,7 @@ a {
 .member-card {
 	margin-bottom:20px
 }
-.role {
+/deep/ .role {
 	opacity: 0.7;
 	font-size: 0.9em;
 }

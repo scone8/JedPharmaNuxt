@@ -38,8 +38,8 @@
       </div>
       <div class="col linked list-unstyled mb-0 icons ">
         <a href="https://ie.linkedin.com/company/jed-pharma" target="_blank" rel="noopener noreferrer">
-          <li class="bigScreen icon"><i class="fab fa-linkedin fa-3x"></i></li>
-          <li class="smallScreen icon"><i class="fab fa-linkedin fa-2x"></i></li>
+          <div class="bigScreen icon"><i class="fab fa-linkedin fa-3x"></i></div>
+          <div class="smallScreen icon"><i class="fab fa-linkedin fa-2x"></i></div>
         </a>
       </div>
     </div>

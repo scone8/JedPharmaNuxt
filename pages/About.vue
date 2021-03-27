@@ -59,7 +59,8 @@
 }
 .our-team {
 	width:80%;
-	margin-top:100px;
+	margin-top:150px;
+	margin-bottom:125px;
 }
 .column{
   -webkit-box-shadow: 0 8px 2px -6px black;
