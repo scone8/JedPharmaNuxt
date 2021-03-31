@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - ' + 'JED Pharma',
+    titleTemplate: 'JED Pharma' + ' - %s',
     title: 'JedPharma' || '',
     htmlAttrs: {
       lang: 'en'
@@ -33,7 +33,8 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: "~/plugins/vue-accept" },
-    { src: "~/plugins/bt-vue" }
+    { src: "~/plugins/bt-vue" },
+    {src: '~/plugins/gtag'}
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -61,12 +62,12 @@ export default {
         threshold: 10240
       }
     }],
-    ['@nuxtjs/pwa', { meta: false, icon: false, manifest: false }]
+    ['@nuxtjs/pwa', { meta: false, icon: false, manifest: false }],
 
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     //analyze: true
-  }
+  },
 }

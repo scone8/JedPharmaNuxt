@@ -1,5 +1,6 @@
 <template>
-  <div class="contact-us" :style="{'background-image': 'url(' + require('~/assets/Contact/contact1.jpg') + ')'}">
+  <div class="contact-us" :style="{'background-image': 'url(' + require('~/assets/Contact/Untitled2.jpg') + ')'}">
+    <!--<img class=logo-contact src="~/assets/Contact/contact-logo.png">-->
     <h1 class="heading">Contact JED Pharma</h1>
     <div class="form-row main-part">
       <div class="col-md-8 mb-md-0 mb-5">
@@ -17,7 +18,7 @@
            <b-form-group id="input-group-2" label="Name:" label-align="left" label-for="input-2" >
              <b-form-input id="input-2"
                 v-model="form.Name"
-                placeholder="Enter name"
+               
                 required>
               </b-form-input>
             </b-form-group>
@@ -26,7 +27,7 @@
               <b-form-input id="input-3"
                 v-model="form.Email"
                 type="email"
-                placeholder="Enter email"
+                
                 required>
               </b-form-input>
             </b-form-group>
@@ -34,7 +35,7 @@
             <b-form-group id="input-group-4" label="Message:" label-align="left" label-for="input-4" >
               <b-form-textarea id="input-4"
                 v-model="form.Message"
-                placeholder="Enter message"
+                
                 rows="7"
                 required>
               </b-form-textarea>
@@ -72,6 +73,9 @@
         </ul>
       </div>
     </div>
+    <div class=map>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.713440601911!2d-7.744125423779016!3d52.35748239873028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48433185c4d16005%3A0x2950ecfe38bfee47!2sJED%20Pharma!5e0!3m2!1sen!2sie!4v1617134969518!5m2!1sen!2sie" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
   </div>
 </template>
 
@@ -120,6 +124,9 @@
 </script>
 
 <style scoped>
+.map {
+  margin-top: 100px;
+}
 label{
   font-weight: bold;
 }
@@ -129,12 +136,12 @@ label{
 .add-block {
   margin-top: 10px;
 }
-.contact-logo {
+.logo-contact {
   height: 200px;
 }
 .contact-us {
   color: white;
-  padding-bottom: 200px;
+  padding-bottom: 44px;
   padding-right:10px;
   margin-bottom: -150px;
   padding-top: 150px;
@@ -142,7 +149,7 @@ label{
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-attachment: fixed;
 }
 .submitbtn {
   width:30%;

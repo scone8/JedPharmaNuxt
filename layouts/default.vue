@@ -4,7 +4,7 @@
           :style="{'margin-top': margin}"
           :class="{ 'fixed-top': isTransparent, 'sticky-top': isSticky, 'bg-dark': isDark }">
       <div class="container-fluid">
-        <nuxt-link class="navbar-brand" to="/">
+        <nuxt-link class="navbar-brand" data-toggle="collapse" to="/">
               <img src="@/assets/logo.png" alt="" class="logo img-responsive">
             </nuxt-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,10 @@
               <nuxt-link class="nav-link" data-toggle="collapse" to="/about" active-class="active">About Us</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link class="nav-link" data-toggle="collapse" to="/contact" active-class="active">Contact Us</nuxt-link>
+              <nuxt-link class="nav-link" data-toggle="collapse" to="/contact2" active-class="active">Contact Us</nuxt-link>
+            </li>
+            <li class="nav-item">
+              <nuxt-link class="nav-link" data-toggle="collapse" to="/contact6" active-class="active">Contact 2</nuxt-link>
             </li>
           </ul>
         </div>
